@@ -1,12 +1,10 @@
-package hello
+package main
 
 import (
-	"examples.com/greetings"
-	"fmt"
+	"example/greetings"
 )
 
 func main() {
 	// Get a greetings message and print it.
-	message := greetings.Hello("VIkas")
-	fmt.Println(message)
+	greetings.Hello("Vikas")
 }
