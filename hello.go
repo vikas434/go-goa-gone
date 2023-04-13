@@ -1,0 +1,1 @@
+package go_goa_gone
